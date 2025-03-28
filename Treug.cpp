@@ -18,7 +18,7 @@ double Area(double a, double b, double c) {
 bool Ravno(double a, double b, double c) {
     return (a == b || b == c || a == c);
 }
-
+// Основа
 int main() {
     double a, b, c;
 
@@ -34,7 +34,7 @@ int main() {
         cout << "Площадь треугольника: " << area << endl;
         cout << "Треугольник равнобедренный: " << (ravno ? "Да" : "Нет") << endl;
     } else {
-        cout << "Треугольник с такими сторонами не существует." << endl;
+        cout << "Треугольник с такими сторонами не существует.(Без отрицательный чисел)" << endl;
     }
 
     return 0;
